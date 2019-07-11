@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Charmonman', cursive;
+    font-size: 18x;
+    background-color: lightcyan
+}
+h1 {
+    color: blue;
+    margin-top: 0px;
+}
+.column {
+    width: 33.33%;
+    float: left;
+}
+.header-info-paragraph {
+    color: darksalmon;
+    margin: 0px;
+    font-size: 18px;
+}
+.link-information-paragraph {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 20px;
+    color: darksalmon;
+}
+.list-image, .form-image {
+    height: 345px;
+}
+span {
+    display: inline-block;
+    border: 2px dashed blue;
+    height: 28px;
+}
+li, td {
+    border: 2px solid blueviolet;
+}
+.table-image {
+    height: 375px;
+}
+.age-info{
+    color: blueviolet;
+    border: 0px;
+    font-size: 20px;
+}
+::placeholder, label, button, input[type="text"] {
+    color: darkviolet;
+    font-size: 20px;
+}
+h2 {
+    color: orange;
+}
